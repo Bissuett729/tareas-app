@@ -10,10 +10,11 @@ function addTask() {
 
   const li = document.createElement("li");
   li.textContent = taskText;
-
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "❌";
+
   deleteBtn.classList.add("delete-btn");
+  
   deleteBtn.addEventListener("click", () => li.remove());
 
   li.addEventListener("click", () => li.classList.toggle("completed"));
