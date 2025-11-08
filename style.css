@@ -60,3 +60,15 @@ li.completed {
   text-decoration: line-through;
   color: #888;
 }
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+}
