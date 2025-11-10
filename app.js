@@ -45,3 +45,5 @@ function updateTaskCount() {
 
   taskCounter.textContent = `Tareas pendientes: ${pendingTasks}`;
 }
+
+document.getElementById('year').textContent = new Date().getFullYear();

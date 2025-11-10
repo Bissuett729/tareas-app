@@ -86,3 +86,23 @@ li.completed {
   border-radius: 6px;
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
 }
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  padding: 8px 0;
+  background: none;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer span {
+  color: #007bff;
+  font-weight: bold;
+}
